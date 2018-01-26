@@ -109,6 +109,12 @@ Confirm that the correct commands are reported for your 3 finger
 swipe up/down/left/right gestures, and your 2 or 3 finger pinch
 in/out gestures. Some touchpads can also support 4 finger gestures.
 
+In most cases, libinput-gestures will automatically determine your
+touchpad device. However, you can specify it in your configuration file
+if needed. If you have multiple touchpads you can also specify
+libinput-gestures to use all devices. See the notes in the default
+`libinput-gestures.conf` file about the `device` configuration command.
+
 If you have problems then follow the TROUBLESHOOTING steps below.
 
 ### STARTING AND STOPPING
